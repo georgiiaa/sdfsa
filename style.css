@@ -1,0 +1,258 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* header{
+  color: black;
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+} */
+
+/*  Define the main Navigation block */
+/* .myNav {
+    display: block;
+    height: 60px;
+    line-height: 30px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+   background-color: grey;
+}
+Remove bullets, margin and padding */
+/* .myNav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.myNav li {
+    float: left;
+}
+Define the block styling for the links
+.myNav li a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+}
+  */
+
+body {
+	margin: 0;
+	background: #222;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background: #55d6aa;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 45px;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+ul{
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  padding: 25px;
+  color: blue;
+}
+
+ul2{
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  padding: 25px;
+  color: blue;
+}
+
+
+
+
+/* ------------------------------------ */
+
+/* This is optional, however if you want to display the active link differently apply a background to it */
+/* .myNav li a.active {
+    background-color: #3786E1; 
+}  */ 
+
+
+/* FOR THE BUTTONS ON GAME INDEX PAGE  */
+.button a:link, a:visited {
+  background-color: pink;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.button a:hover, a:active {
+  background-color: grey;
+}
+
+/* FOR ACCELERATION GAME */
+canvas {
+    border:1px solid #d3d3d3;
+    background-color: #f1f1f1;
+}
+
+/* FOR PACMAN */
+
+/* FOR ACCELERATION */
+.acc{
+  color: pink;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* INDEX.HTML */
+.gap1{
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.gap2{
+  font-size:50px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.gap3{
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.boxed {
+    width: 200px;
+    margin-left: 150px;
+    margin-right: 45px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 5px;
+    border: 5px solid black;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: grey;
+    color: black;
+}
+
+
+.center{
+  display: inline-block;
+  list-style-type: none;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  background-color: purple;
+}
+
+.cap{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: blue;
+}
+
+.what{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-align:center;
+  padding: 7px;
+  background-color: purple;
+}
+/* * Container holding the image and the text */ 
+.container1 {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 90%;
+	margin: 0 auto;
+}
+
+img{
+    border-radius: 25px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  color: #00093D
+}
+
+/* ABOUT HTML */
+.about{
+  color: black;
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  border: 5px solid black;
+}
